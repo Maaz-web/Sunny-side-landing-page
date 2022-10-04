@@ -1,0 +1,167 @@
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      word-spacing: 50px;
+    }
+
+    .logo {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bolder;
+      padding: 10px;
+      font-size: 20px;
+      font-display: bold;
+      text-decoration: none;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .links {
+      font-size: 16px;
+      padding: 22px;
+      margin: 5px;
+    }
+
+    .active {
+      border: 1px solid white;
+      color: black;
+      padding: 15px;
+      background-color: white;
+      border-radius: 20px;
+    }
+
+    .container {
+      background-image: url(./images/desktop/image-header.jpg);
+      height: 50vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* position: relative; */
+    }
+
+    .heroSection {
+      color: #fff;
+      text-align: c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .hero {
+      letter-spacing: 5px;
+      padding: 20px;
+    }
+
+    .boxes {
+      display: flex;
+      align-items: center;
+    }
+
+    .box{
+      max-width: 50%;
+    } 
+
+    .box img{
+      width: 630px;
+    }
+
+    .infoBox {
+      margin: 10px;
+      padding: 70px;
+      text-align:justify
+    }
+
+    .heading {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px;
+      color: rgb(14, 46, 83)
+    }
+
+    .para {
+      color: grey;
+      font-size: 18px;
+      line-height: 2rem;
+  
+    }
+
+    .brands {
+      display: flex;
+      align-items: center;
+    }
+
+    .brand {
+       max-width: 50%;
+    }
+
+    .brand img {
+      width: 630px;
+    }
+
+    .brandBox {
+      margin: 10px;
+      padding: 70px;
+      text-align: justify;
+    }
+
+    .heading {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 35px;
+      color: rgb(14, 46, 83)
+    }
+
+    .para {
+      color: grey;
+      font-size: 18px;
+      line-height: 2rem;
+  
+    }
+
+    .block-wrapper {
+      background-image: url(./images/desktop/image-graphic-design.jpg);
+      background-position: center;
+      width: 630px;
+      height: 530px;
+      text-align: center;
+      padding: 35px;
+      justify-content: center;
+      color: rgb(4, 61, 90);
+    }
+
+    .orange{
+      background-image: url(./images/desktop/image-photography.jpg);
+      
+    }
+
+      
+
+    
+
+    
+
+    .description{
+      position: relative;
+       top: 70%;
+    }
+
+    .titel {
+      font-size: 35px;
+      line-height: 2rem;
+    }
+
+    .graph {
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: block;
+      padding: 35px;
+    }
